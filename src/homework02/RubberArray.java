@@ -7,7 +7,6 @@ public class RubberArray<T> {
 
     public void add(T item) {
         if (array == null) {
-//            System.out.println("Null");
             array = (T[]) new Object[0];
         }
         T[] newArray = (T[]) new Object[array.length + 1];
