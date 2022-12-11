@@ -15,6 +15,10 @@ public class MainHomework02 {
         }
 //        Comparator<Human> humanComparator= new HumanComparator();
         System.out.println(humans);
+        Human temp = humans.get(2);
+        humans.set(2, new Human());
+        humans.remove(8);
+        System.out.println(humans);
 
         //Выбор метода сортировки. 1- по имени, 2 - по возрасту, 3- по имени; любые другие - по имени
 
