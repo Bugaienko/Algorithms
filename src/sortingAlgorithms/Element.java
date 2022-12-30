@@ -7,8 +7,9 @@ public class Element implements Comparable<Element> {
     private int value;
 
     static Random random = new Random();
+
     public Element() {
-        this.type = (random.nextInt(10) > 5)? 1: 2;
+        this.type = (random.nextInt(10) > 5) ? 1 : 2;
         this.value = random.nextInt(100);
     }
 
@@ -19,7 +20,6 @@ public class Element implements Comparable<Element> {
     public int getValue() {
         return value;
     }
-
 
 
     @Override
