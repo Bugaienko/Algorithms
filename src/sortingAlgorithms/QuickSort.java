@@ -2,7 +2,7 @@ package sortingAlgorithms;
 
 import java.util.Arrays;
 
-public class QuickSearch {
+public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {3, 2, 5, 0, 1, 8, 7, 6, 9, 4};
         quickSort(arr, 0, arr.length - 1);
