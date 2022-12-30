@@ -45,7 +45,7 @@ public class Result {
             sortList(list, low, low - 1);
         }
         if (j > i + 1) {
-            sortList(list, i +1, j);
+            sortList(list, i + 1, j);
         }
 //        System.out.print("отсортировал: ");
 //        Util.printArray(list);
@@ -58,10 +58,10 @@ public class Result {
         // добавляем элемент в соответсвующий список
         if (arr[idx].getType() == 1) {
             listType1.add(arr[idx]);
-            sortList(listType1, 0, listType1.size()-1);
+            sortList(listType1, 0, listType1.size() - 1);
         } else if (arr[idx].getType() == 2) {
             listType2.add(arr[idx]);
-            sortList(listType2, 0, listType2.size()-1);
+            sortList(listType2, 0, listType2.size() - 1);
         }
         addElement(idx + 1, arr);
 
