@@ -1,5 +1,6 @@
 package sortingAlgorithms;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +13,7 @@ public class Result {
         listType2 = new ArrayList<>();
 
 //        System.out.println("Constructor");
+
         if (array.length > 0) {
             addElement(0, array);
         }
@@ -42,7 +44,7 @@ public class Result {
             } else j++;
         }
         if (low < i - 1) {
-            sortList(list, low, low - 1);
+            sortList(list, low, i - 1);
         }
         if (j > i + 1) {
             sortList(list, i + 1, j);
